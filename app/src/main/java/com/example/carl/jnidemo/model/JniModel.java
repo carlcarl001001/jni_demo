@@ -17,7 +17,6 @@ public class JniModel {
     private static String TAG = "jniTest";
     public native String stringFromJNI();
 
-    public native void cppCallJava();
     public native List<SchoolClass> getOneClassFromC();
 
     public void getOneClass(){

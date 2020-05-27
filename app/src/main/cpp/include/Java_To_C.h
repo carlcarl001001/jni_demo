@@ -38,7 +38,6 @@ public:
     static vector<Student> changeStudents(JNIEnv *env,jobject students_obj);
     static vector<SchoolClass> changeClasses(JNIEnv *env);
 
-   // vector<Student> changeStudents(const JNINativeInterface **env);
 };
 
 
